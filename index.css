@@ -1,0 +1,37 @@
+:root {
+    --defaultFontColor : #EBDBD8;
+    --backgroundColor : #FF6D60;
+}
+* {
+    margin: 0;
+}
+
+.page1 {
+    width: 100%;
+    height: 100vh;
+    background-color: var(--backgroundColor);
+    background-image: url(assets/Page1FlowersBackground.png);
+    background-size: 80%;
+}
+.page1 h1 {
+    position: absolute;
+    left: 365px;
+    top: 276px;
+    font-size: 96pt;
+    color: var(--defaultFontColor);
+}
+
+.page2 {
+    background-color: var(--backgroundColor);
+    height: 100vh;
+    color: var(--defaultFontColor);
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.WhoCard {
+    width: 83%;
+    height: 80vh;
+    background-color: rgba(179, 76, 67, .6);
+}
