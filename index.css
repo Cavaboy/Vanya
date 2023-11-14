@@ -4,14 +4,21 @@
 }
 * {
     margin: 0;
+    scroll-snap-type: y mandatory;
+    font-family: inter;
+}
+
+section {
+    scroll-snap-align: start;
+    height: 100vh;
+    width: 100%;
 }
 
 .page1 {
-    width: 100%;
-    height: 100vh;
     background-color: var(--backgroundColor);
     background-image: url(assets/Page1FlowersBackground.png);
-    background-size: 80%;
+    background-size: 83%;
+    background-repeat: repeat;
 }
 .page1 h1 {
     position: absolute;
@@ -23,15 +30,38 @@
 
 .page2 {
     background-color: var(--backgroundColor);
-    height: 100vh;
     color: var(--defaultFontColor);
     display: grid;
     align-items: center;
     justify-content: center;
+    background-image: url(assets/Page1FlowersBackground.png);
+    background-repeat: repeat;
 }
-
+.page2 h1 {
+    font-size: 5em;
+    margin-left: 4em;
+    margin-bottom: -1.5em;
+}
 .WhoCard {
-    width: 83%;
-    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10em;
+    margin-left: 8%;
+    width: 84%;
+    height: 80%;
+    margin-bottom: 7%;
     background-color: rgba(179, 76, 67, .6);
+}
+.WhoCard img {
+    margin-right: 10em;
+}
+.WhoCard p {
+    text-align: justify;
+    color: var(--defaultFontColor);
+    line-height: 120%;
+    word-spacing: .6em;
+    margin: 0em 5em 0px 6em;
+    font-size: 20pt;
+    font-weight: 600;
 }
