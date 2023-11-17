@@ -1,7 +1,8 @@
 :root {
-    --defaultFontColor : #EBDBD8;
-    --backgroundColor : #FF6D60;
+    --defaultFontColor: #EBDBD8;
+    --backgroundColor: #FF6D60;
 }
+
 * {
     margin: 0;
     scroll-snap-type: y mandatory;
@@ -20,6 +21,7 @@ section {
     background-size: 83%;
     background-repeat: repeat;
 }
+
 .page1 h1 {
     position: absolute;
     left: 365px;
@@ -37,11 +39,13 @@ section {
     background-image: url(assets/Page1FlowersBackground.png);
     background-repeat: repeat;
 }
+
 .page2 h1 {
     font-size: 5em;
     margin-left: 4em;
     margin-bottom: -1.3em;
 }
+
 .WhoCard {
     display: flex;
     justify-content: center;
@@ -56,9 +60,11 @@ section {
     margin-bottom: 7%;
     background-color: rgba(209, 90, 78, .6);
 }
+
 .WhoCard img {
     margin-right: 10em;
 }
+
 .WhoCard p {
     text-align: justify;
     color: var(--defaultFontColor);
@@ -67,4 +73,39 @@ section {
     margin: 0em 5em 0px 6em;
     font-size: 20pt;
     font-weight: 600;
+}
+
+.page3 {
+    background-color: var(--backgroundColor);
+    color: var(--defaultFontColor);
+    align-items: center;
+    justify-content: center;
+    background-image: url(assets/Page1FlowersBackground.png);
+    background-repeat: repeat;
+}
+
+.page3 h1 {
+    font-size: 2em;
+    margin-left: 10em;
+    padding-top: 2em;
+    margin-bottom: -2em;
+}
+
+.wishcard {
+    border-radius: 10em;
+    margin-top: 5%;
+    border-style: solid;
+    border-color: rgba(199, 86, 74, .6);
+    border-width: .5em;
+    width: 90%;
+    height: 80%;
+    margin-left: 5%;
+    background-color: rgba(209, 90, 78, .6);
+}
+
+.page3 p {
+    text-align: justify;
+    margin: 1em 5em 0em;
+    font-size: 16pt;
+    line-height: 100%;
 }
